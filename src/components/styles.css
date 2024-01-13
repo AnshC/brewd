@@ -1,0 +1,137 @@
+/* Home */
+
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5vh 10vw 5vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Home .head h1 {
+    font-size: 7rem;
+}
+
+.Home .head .hours {
+    margin-top: 10px;
+}
+
+.Home .head h2 {
+    margin-top: 20px;
+}
+
+.Home .menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 40px;
+}
+
+.Home .reviewOrder {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    background-color: black;
+    color: #f9f6e7;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.Home .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home .cart-empty {
+    color: rgb(115, 89, 71, 0.5);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Home .cart-empty #icon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.Home .checkout {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f9f6e7;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.Home .checkout:hover {
+    background-color: black;
+    color: #f9f6e7;
+}
+
+.Home .total {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Item {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Item .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.Item .content .price {
+    margin-left: auto;
+}
+
+.Item .quantity {
+    margin-top: 10px;
+}
+
+.Item .quantity .button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.Item .quantity .number {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}

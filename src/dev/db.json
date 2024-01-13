@@ -1,0 +1,22 @@
+{
+    "menu": [
+        {
+            "name": "Espresso",
+            "price": 1,
+            "info": "a double shot espresso",
+            "id": "esp"
+        },
+        {
+            "name": "Cappuccino",
+            "price": 3,
+            "info": "espresso with foamed milk",
+            "id": "cap"
+        },
+        {
+            "name": "Iced Americano",
+            "price": 2,
+            "info": "espresso with ice and water",
+            "id": "iamco"
+        }
+    ]
+}
